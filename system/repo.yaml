@@ -2,6 +2,5 @@ apiVersion: configsync.gke.io/v1beta1
 kind: Repo
 metadata:
   name: repo
-  namespace: config-management-system
 spec:
   sourceFormat: hierarchy
