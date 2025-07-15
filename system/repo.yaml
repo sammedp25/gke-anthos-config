@@ -1,0 +1,7 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: Repo
+metadata:
+  name: root-sync
+  namespace: config-management-system
+spec:
+  sourceFormat: hierarchy
